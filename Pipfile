@@ -4,9 +4,18 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+factory-boy = "*"
+pytest = "*"
+pytest-django = "*"
+deepdiff = "*"
+freezegun = "*"
+pylint = "*"
+mypy = "*"
 
 [packages]
 django = "*"
+djangorestframework = "*"
+drf-yasg = "*"
 
 [requires]
 python_version = "3.10"
